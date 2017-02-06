@@ -1,11 +1,11 @@
-**python-imshow**
+**simple-imshow**
 #################
 
 
 **What it does:**
 
-Reads and displays an image from a url, local filename, PIL image object, `numpy.ndimage object`, or any object type scipy.misc.imread supports directly.
-Also contains an `imread` function that will return the image as a `numpy.ndarray`.
+Reads and displays an image from a url, local filename, PIL image object, `numpy.ndimage object`, or any object type scipy.misc.simread supports directly.
+Also contains an `simread` function that will return the image as a `numpy.ndarray`.
 
 I've had to look up how to display an image in this context or that too many
 times.  This is an attempt to remedy that.
@@ -26,8 +26,8 @@ robust, more convenient tool -- so, as the FAA likes to say, "If you see somethi
 
 **Some thoughts on guidelines for this project:**
 
-* `imread` should be fast.
+* `simread` should be fast.
 
 * I'd like to keep required dependencies limited to common ones available through pip (e.g. no requirement for opencv)
 
-* It'd be nice if `imshow` could refresh quickly enough support video feeds.  In my experience matplotlib figures will not though (I do not know matplotlib well though).
+* It'd be nice if `simshow` could refresh quickly enough support video feeds.  In my experience matplotlib figures will not though (I do not know matplotlib well though).
