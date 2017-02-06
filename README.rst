@@ -4,11 +4,26 @@
 
 **What it does:**
 
-Reads and displays an image from a url, local filename, PIL image object, `numpy.ndimage object`, or any object type scipy.misc.simread supports directly.
+Reads and displays an image from a url, local filename, PIL image object, `numpy.ndimage object`, or any object type scipy.misc.imread supports directly.
 Also contains an `simread` function that will return the image as a `numpy.ndarray`.
 
 I've had to look up how to display an image in this context or that too many
 times.  This is an attempt to remedy that.
+
+
+**Setup**
+
+.. code:: bash
+
+    $ pip install simple-imshow
+
+**Usage**
+
+.. code:: bash
+
+    >> from simshow import simshow
+    >> imshow('test-cats.jpg')  # display from local file
+    >> imshow('http://mathandy.com/escher_sphere.png')  # display from url
 
 
 **Request for Community Support:**

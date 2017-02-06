@@ -1,1 +1,1 @@
-simple_imshow
+simshow

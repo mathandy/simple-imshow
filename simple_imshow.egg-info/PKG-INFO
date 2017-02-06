@@ -2,11 +2,11 @@ Metadata-Version: 1.1
 Name: simple-imshow
 Version: 1.0
 Summary: A simple tool to display (and read to np.ndarray) images from a url, file, image object, etc.
-Home-page: https://github.com/mathandy/simple_imshow
+Home-page: https://github.com/mathandy/simple-imshow
 Author: Andy Port
 Author-email: AndyAPort@gmail.com
 License: MIT
-Download-URL: http://github.com/mathandy/simple_imshow/tarball/1.0
+Download-URL: http://github.com/mathandy/simshow/tarball/1.0
 Description: **simple-imshow**
         #################
         

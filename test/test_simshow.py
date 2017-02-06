@@ -1,4 +1,4 @@
-from simple_imshow import simshow
+from simshow import simshow
 
 # For Python 3 compatibility
 try:

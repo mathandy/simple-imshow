@@ -18,16 +18,16 @@ def read(*parts):
         return f.read()
 
 
-setup(name='simple_imshow',
-      packages=['simple_imshow'],
+setup(name='simple-imshow',
+      packages=['simshow'],
       version=VERSION,
       description=('A simple tool to display (and read to np.ndarray) images '
                    'from a url, file, image object, etc.'),
       long_description=read("README.rst"),
       author=AUTHOR_NAME,
       author_email=AUTHOR_EMAIL,
-      url='https://github.com/mathandy/simple_imshow',
-      download_url='http://github.com/mathandy/simple_imshow/tarball/'+VERSION,
+      url='https://github.com/mathandy/simple-imshow',
+      download_url='http://github.com/mathandy/simshow/tarball/'+VERSION,
       license='MIT',
       platforms="OS Independent",
       requires=['numpy', 'scipy', 'matplotlib', 'requests'],
