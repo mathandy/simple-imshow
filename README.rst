@@ -28,6 +28,6 @@ robust, more convenient tool -- so, as the FAA likes to say, "If you see somethi
 
 * `imread` should be fast.
 
-* I'd like to keep required dependencies limited to common ones available through pip (e.g. no reliance opencv)
+* I'd like to keep required dependencies limited to common ones available through pip (e.g. no requirement for opencv)
 
 * It'd be nice if `imshow` could refresh quickly enough support video feeds.  In my experience matplotlib figures will not though (I do not know matplotlib well though).
