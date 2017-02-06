@@ -1,0 +1,2 @@
+include *.jpg *.png LICENSE* README*
+recursive-include test *.jpg *.png

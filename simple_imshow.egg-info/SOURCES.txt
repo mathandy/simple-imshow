@@ -1,5 +1,11 @@
+LICENSE.txt
+MANIFEST.in
 README.rst
+setup.cfg
 setup.py
+test-cats.jpg
+test-pup.jpg
+test-pw.jpg
 simple_imshow.egg-info/PKG-INFO
 simple_imshow.egg-info/SOURCES.txt
 simple_imshow.egg-info/dependency_links.txt
