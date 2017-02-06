@@ -14,8 +14,7 @@ times.  This is an attempt to remedy that.
 **Request for Community Support:**
 
 I'd love for others to help me make this a more
-robust, more convenient tool -- so, as the FCC always says, "If you see 
-something, say something." :)
+robust, more convenient tool -- so, as the FAA likes to say, "If you see something, say something." Or at least feel free to.
 
 
 **TODO:**
