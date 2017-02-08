@@ -1,12 +1,12 @@
 Metadata-Version: 1.1
 Name: simple-imshow
-Version: 1.0
+Version: 1.0.post1
 Summary: A simple tool to display (and read to np.ndarray) images from a url, file, image object, etc.
 Home-page: https://github.com/mathandy/simple-imshow
 Author: Andy Port
 Author-email: AndyAPort@gmail.com
 License: MIT
-Download-URL: http://github.com/mathandy/simple-imshow/tarball/1.0
+Download-URL: http://github.com/mathandy/simple-imshow/tarball/1.0.post1
 Description: **simple-imshow**
         #################
         
@@ -31,8 +31,8 @@ Description: **simple-imshow**
         .. code:: bash
         
             >> from simshow import simshow
-            >> imshow('test-cats.jpg')  # display from local file
-            >> imshow('http://mathandy.com/escher_sphere.png')  # display from url
+            >> simshow('test-cats.jpg')  # display from local file
+            >> simshow('http://mathandy.com/escher_sphere.png')  # display from url
         
         
         **Request for Community Support:**
