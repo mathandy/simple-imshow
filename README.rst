@@ -22,8 +22,8 @@ times.  This is an attempt to remedy that.
 .. code:: bash
 
     >> from simshow import simshow
-    >> imshow('test-cats.jpg')  # display from local file
-    >> imshow('http://mathandy.com/escher_sphere.png')  # display from url
+    >> simshow('test-cats.jpg')  # display from local file
+    >> simshow('http://mathandy.com/escher_sphere.png')  # display from url
 
 
 **Request for Community Support:**
